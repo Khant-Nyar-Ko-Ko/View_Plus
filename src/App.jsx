@@ -3,7 +3,7 @@ import Hero from "./components/Hero"
 
 const App = () => {
   return (
-    <div className=" relative">
+    <div>
       <Header/>
       <Hero/>
     </div>

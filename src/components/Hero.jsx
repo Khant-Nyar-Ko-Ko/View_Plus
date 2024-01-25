@@ -1,10 +1,12 @@
-import mainImg from "../images/mainImg.jpeg"
-const Hero = () => {
-  return (
-    <div>
-        <img src={mainImg} className=" w-full" alt="" />
-    </div>
-  )
-}
+import PopularCarousel from "./PopularCarousel";
 
-export default Hero
+const Hero = () => {
+    
+  return (
+    <>
+     <PopularCarousel/>
+    </>
+  );
+};
+
+export default Hero;
