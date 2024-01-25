@@ -4,7 +4,7 @@ const Profile = () => {
   return (
     <div className=" flex gap-3 items-center">
       <svg
-        className="w-[20px] h-[20px] text-gray-800 dark:text-white cursor-pointer"
+        className="w-[20px] h-[20px] text-white dark:text-white cursor-pointer"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -17,9 +17,9 @@ const Profile = () => {
           d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
         />
       </svg>
-      <p>Name</p>
+      <p className=" text-white select-none">Name</p>
       <svg
-        className="w-[20px] h-[20px] text-gray-800 dark:text-white"
+        className="w-[20px] h-[20px] text-white dark:text-white"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
@@ -30,7 +30,7 @@ const Profile = () => {
       <img src={profile} className=" w-8 h-8" alt="" />
       <button>
         <svg
-          className="w-[19px] h-[19px] text-gray-800 dark:text-white"
+          className="w-[19px] h-[19px] text-white dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
